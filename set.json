@@ -1,5 +1,5 @@
 {
-	"file": "upset.csv",
+	"file": "https://raw.githubusercontent.com/dionmcm/upset-demp/master/upset.csv",
 	"name": "Comparison of Emergency department reference set and Australian emergency department reference set ",
 	"header": 0,
 	"separator": ",",
