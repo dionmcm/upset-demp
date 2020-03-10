@@ -3,17 +3,16 @@
 	"name": "Comparison of Emergency department reference set and Australian emergency department reference set ",
 	"header": 0,
 	"separator": ",",
-	"skip": 0,
 	"meta": [
 		{ "type": "id", "index": 0, "name": "SCT ID" },
 		{ "type": "string", "index": 1, "name": "FSN" },
 		{ "type": "string", "index": 2, "name": "Hierarchy" },
-		{ "type": "boolean", "index": 3, "name": "Active in 20200201" },
+		{ "type": "string", "index": 3, "name": "Active in 20200201" },
 		{ "type": "string", "index": 6, "name": "Mapping ID" },
 		{ "type": "string", "index": 7, "name": "Mapping Name", "min": 1, "max": 5 }
 	],
 	"sets": [
-		{ "format": "boolean", "start": 4, "end": 5 }
+		{ "format": "binary", "start": 4, "end": 5 }
 	],
     "author": "Danger Mouse",
     "description": "Some much longer description of the comparison"
